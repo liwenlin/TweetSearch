@@ -1,0 +1,3 @@
+How to use:
+Import project and nclude the twitter4j.jar to the libraries to eclipse.
+Run program with the hashtag parameter.
