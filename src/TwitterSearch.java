@@ -31,7 +31,7 @@ public class TwitterSearch {
 				if (tweet.getURLEntities().length>0) {
 					URLEntity[] e = tweet.getURLEntities();
 					for (URLEntity u : e) {
-						System.out.print(u.getURL().toString());
+						System.out.print(u.getURL().toString() + " ");
 					}
 					System.out.println();
 				}
